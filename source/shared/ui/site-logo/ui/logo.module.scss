@@ -4,8 +4,8 @@
 	align-items: center;
 	height: fit-content;
 	.logo {
-		width: 60px;
-		height: 60px;
+		width: 160px;
+		height: 160px;
 	}
 
 	.title {
@@ -19,7 +19,7 @@
 	}
 }
 
-@media only screen and (max-width: 640px) {
+@media only screen and (max-width: 1640px) {
 	.wrapper {
 		.title {
 			display: none;

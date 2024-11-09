@@ -57,7 +57,7 @@ export function AuthForm({ type }: IAuthForm) {
 
 	return (
 		<div className='w-full max-w-[480px] pb-24 md:py-4 mx-4 animate-fade-up animate-once'>
-			<h3 className='sticky top-0 py-4 text-[28px] font-bold bg-primary-white z-10'>
+			<h3 className='sticky top-0 py-4 text-[28px] font-bold bg-primary- z-10'>
 				{titleText}
 			</h3>
 			<Form

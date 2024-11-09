@@ -18,7 +18,6 @@ export function SiteLogo() {
 	return (
 		<Link href={ROUTES.home} className={styles.wrapper}>
 			<Image className={styles.logo} src={siteLogoSrc} alt='logo' />
-			<h2 className={titleClassName}>{t('monName')}</h2>
 		</Link>
 	);
 }
